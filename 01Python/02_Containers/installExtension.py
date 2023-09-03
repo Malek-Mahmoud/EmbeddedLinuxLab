@@ -10,7 +10,7 @@ def openVS():
     time.sleep(10)
 
 def openExtensionWindow():
-    pyautogui.hotkey('ctrl'+'shift'+'x')
+    pyautogui.hotkey('ctrl','shift','x')
     time.sleep(10)
 
 def installCppExtension(ExtensionName):
